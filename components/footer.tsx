@@ -40,7 +40,7 @@ export function Footer() {
                 </span>
               </Link>
               <p className="text-muted-foreground mb-6 leading-relaxed text-sm md:text-base">
-                A melhor academia de tenis e beach tennis da regiao. Transformando vidas atraves do esporte desde 2010.
+                A melhor academia de tênis e beach tennis da região. Transformando vidas através do esporte desde 2010.
               </p>
               <div className="flex gap-3">
                 <a
@@ -77,7 +77,7 @@ export function Footer() {
             {/* Quick Links */}
             <div>
               <h4 className="font-[family-name:var(--font-display)] text-lg md:text-xl text-foreground mb-4 md:mb-6">
-                LINKS RAPIDOS
+                LINKS RÁPIDOS
               </h4>
               <ul className="space-y-2 md:space-y-3">
                 <li>
@@ -86,7 +86,7 @@ export function Footer() {
                     onClick={(e) => handleNavClick(e, '#inicio')}
                     className="text-muted-foreground hover:text-primary transition-colors text-sm md:text-base cursor-pointer"
                   >
-                    Inicio
+                    Início
                   </a>
                 </li>
                 <li>
@@ -95,7 +95,7 @@ export function Footer() {
                     onClick={(e) => handleNavClick(e, '#servicos')}
                     className="text-muted-foreground hover:text-primary transition-colors text-sm md:text-base cursor-pointer"
                   >
-                    Servicos
+                    Serviços
                   </a>
                 </li>
                 <li>
@@ -104,7 +104,7 @@ export function Footer() {
                     onClick={(e) => handleNavClick(e, '#precos')}
                     className="text-muted-foreground hover:text-primary transition-colors text-sm md:text-base cursor-pointer"
                   >
-                    Planos e Precos
+                    Planos e Preços
                   </a>
                 </li>
                 <li>
@@ -122,7 +122,7 @@ export function Footer() {
             {/* Services */}
             <div>
               <h4 className="font-[family-name:var(--font-display)] text-lg md:text-xl text-foreground mb-4 md:mb-6">
-                NOSSOS SERVICOS
+                NOSSOS SERVIÇOS
               </h4>
               <ul className="space-y-2 md:space-y-3">
                 <li>
@@ -131,7 +131,7 @@ export function Footer() {
                     onClick={(e) => handleNavClick(e, '#servicos')}
                     className="text-muted-foreground hover:text-primary transition-colors text-sm md:text-base cursor-pointer"
                   >
-                    Tenis Tradicional
+                    Tênis Tradicional
                   </a>
                 </li>
                 <li>
@@ -167,7 +167,7 @@ export function Footer() {
                     onClick={(e) => handleNavClick(e, '#servicos')}
                     className="text-muted-foreground hover:text-primary transition-colors text-sm md:text-base cursor-pointer"
                   >
-                    Competicoes
+                    Competições
                   </a>
                 </li>
               </ul>
@@ -176,7 +176,7 @@ export function Footer() {
             {/* Contact */}
             <div>
               <h4 className="font-[family-name:var(--font-display)] text-lg md:text-xl text-foreground mb-4 md:mb-6">
-                HORARIO DE FUNCIONAMENTO
+                HORÁRIO DE FUNCIONAMENTO
               </h4>
               <ul className="space-y-2 md:space-y-3 text-muted-foreground text-sm md:text-base">
                 <li className="flex justify-between">
@@ -184,7 +184,7 @@ export function Footer() {
                   <span className="text-foreground">6h - 22h</span>
                 </li>
                 <li className="flex justify-between">
-                  <span>Sabado</span>
+                  <span>Sábado</span>
                   <span className="text-foreground">7h - 20h</span>
                 </li>
                 <li className="flex justify-between">

@@ -8,7 +8,7 @@ import { TennisBall, List, X } from '@phosphor-icons/react'
 import { ThemeToggle } from './theme-toggle'
 
 const navigationItems = [
-  { href: '#inicio', label: 'Inicio', ariaLabel: 'Ir para seção inicial' },
+  { href: '#inicio', label: 'Início', ariaLabel: 'Ir para seção inicial' },
   { href: '#sobre', label: 'Sobre', ariaLabel: 'Ir para seção sobre nós' },
   { href: '#servicos', label: 'Serviços', ariaLabel: 'Ir para seção de serviços' },
   { href: '#precos', label: 'Preços', ariaLabel: 'Ir para seção de preços' },

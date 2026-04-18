@@ -5,17 +5,17 @@ import { Check, X, Star, Lightning } from "@phosphor-icons/react"
 // Todas as features do plano Elite (mais completo)
 const allFeatures = [
   { name: "Aulas por semana", iniciante: "2 aulas", avancado: "4 aulas", elite: "Ilimitadas" },
-  { name: "Acesso as quadras", iniciante: "Horarios limitados", avancado: "Ilimitado", elite: "24h por dia" },
-  { name: "Material incluso", iniciante: "Basico", avancado: "Premium", elite: "Profissional" },
-  { name: "Vestiario e estacionamento", iniciante: true, avancado: true, elite: true },
+  { name: "Acesso às quadras", iniciante: "Horários limitados", avancado: "Ilimitado", elite: "24h por dia" },
+  { name: "Material incluso", iniciante: "Básico", avancado: "Premium", elite: "Profissional" },
+  { name: "Vestiário e estacionamento", iniciante: true, avancado: true, elite: true },
   { name: "Eventos sociais", iniciante: true, avancado: true, elite: true },
-  { name: "Preparacao fisica", iniciante: false, avancado: true, elite: true },
-  { name: "Participacao em torneios", iniciante: false, avancado: true, elite: true },
-  { name: "Analise de video", iniciante: false, avancado: true, elite: true },
+  { name: "Preparação física", iniciante: false, avancado: true, elite: true },
+  { name: "Participação em torneios", iniciante: false, avancado: true, elite: true },
+  { name: "Análise de vídeo", iniciante: false, avancado: true, elite: true },
   { name: "Personal trainer dedicado", iniciante: false, avancado: false, elite: true },
   { name: "Suporte nutricional", iniciante: false, avancado: false, elite: true },
   { name: "Fisioterapia preventiva", iniciante: false, avancado: false, elite: true },
-  { name: "Inscricao em campeonatos", iniciante: false, avancado: false, elite: true },
+  { name: "Inscrição em campeonatos", iniciante: false, avancado: false, elite: true },
   { name: "Descontos em parceiros", iniciante: false, avancado: false, elite: true },
 ]
 
@@ -23,18 +23,18 @@ const plans = [
   {
     key: "iniciante",
     name: "Iniciante",
-    description: "Perfeito para quem esta comecando",
+    description: "Perfeito para quem está começando",
     price: "149",
-    period: "/mes",
-    cta: "Comecar Agora",
+    period: "/mês",
+    cta: "Começar Agora",
     popular: false,
   },
   {
     key: "avancado",
-    name: "Avancado",
+    name: "Avançado",
     description: "Para quem quer evoluir de verdade",
     price: "279",
-    period: "/mes",
+    period: "/mês",
     cta: "Escolher Plano",
     popular: true,
   },
@@ -43,7 +43,7 @@ const plans = [
     name: "Elite",
     description: "Treinamento de alta performance",
     price: "499",
-    period: "/mes",
+    period: "/mês",
     cta: "Falar com Consultor",
     popular: false,
   }
@@ -81,13 +81,13 @@ export function Pricing() {
           <div className="text-center mb-12 md:mb-16">
             <span className="inline-flex items-center gap-2 bg-secondary/20 text-secondary px-4 py-1.5 rounded-full text-sm font-medium mb-4">
               <Lightning weight="fill" className="w-4 h-4" />
-              Planos e Precos
+              Planos e Preços
             </span>
             <h2 className="font-[family-name:var(--font-display)] text-3xl sm:text-4xl md:text-5xl lg:text-6xl text-foreground mb-4">
               ESCOLHA SEU <span className="text-secondary">PLANO</span>
             </h2>
             <p className="text-muted-foreground text-base md:text-lg max-w-2xl mx-auto">
-              Temos opcoes para todos os perfis e objetivos. Comece sua jornada hoje!
+              Temos opções para todos os perfis e objetivos. Comece sua jornada hoje!
             </p>
           </div>
 

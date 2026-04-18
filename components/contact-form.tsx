@@ -47,7 +47,7 @@ export function ContactForm() {
               VAMOS <span className="text-primary">CONVERSAR?</span>
             </h2>
             <p className="text-muted-foreground text-base md:text-lg max-w-2xl mx-auto">
-              Tire suas duvidas, agende uma aula experimental ou venha conhecer nossa estrutura
+              Tire suas dúvidas, agende uma aula experimental ou venha conhecer nossa estrutura
             </p>
           </div>
 
@@ -55,7 +55,7 @@ export function ContactForm() {
             {/* Contact Info */}
             <div>
               <h3 className="font-[family-name:var(--font-display)] text-2xl md:text-3xl text-foreground mb-6 md:mb-8">
-                INFORMACOES DE CONTATO
+                INFORMAÇÕES DE CONTATO
               </h3>
 
               <div className="space-y-5 md:space-y-6 mb-8 md:mb-10">
@@ -84,8 +84,8 @@ export function ContactForm() {
                     <MapPin weight="fill" className="w-4 h-4 md:w-5 md:h-5 text-primary" />
                   </div>
                   <div>
-                    <p className="text-foreground font-medium mb-1">Endereco</p>
-                    <p className="text-muted-foreground text-sm md:text-base">Av. dos Esportes, 1234 - Jardim Atletico<br />Sao Paulo - SP, 01234-567</p>
+                    <p className="text-foreground font-medium mb-1">Endereço</p>
+                    <p className="text-muted-foreground text-sm md:text-base">Av. dos Esportes, 1234 - Jardim Atlético<br />São Paulo - SP, 01234-567</p>
                   </div>
                 </div>
               </div>
@@ -130,7 +130,7 @@ export function ContactForm() {
                     MENSAGEM ENVIADA!
                   </h4>
                   <p className="text-muted-foreground mb-6 text-sm md:text-base">
-                    Em breve entraremos em contato com voce.
+                    Em breve entraremos em contato com você.
                   </p>
                   <button
                     onClick={() => setIsSubmitted(false)}
@@ -202,8 +202,8 @@ export function ContactForm() {
                       required
                       className="w-full px-4 py-3 bg-card border border-border rounded-xl text-foreground focus:outline-none focus:ring-2 focus:ring-primary focus:border-transparent transition-all text-sm md:text-base"
                     >
-                      <option value="">Selecione uma opcao</option>
-                      <option value="tenis">Tenis Tradicional</option>
+                      <option value="">Selecione uma opção</option>
+                      <option value="tenis">Tênis Tradicional</option>
                       <option value="beach">Beach Tennis</option>
                       <option value="ambos">Ambos</option>
                       <option value="aluguel">Aluguel de Quadra</option>
